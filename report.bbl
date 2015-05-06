@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{cattin13}
+P.~Cattin.
+\newblock {Lecture Notes in "Introduction to Signal- and Image Processing"},
+  2013.
+
+\bibitem{chambolle}
+A.~Chambolle and T.~Pock.
+\newblock {A first-order primal-dual algorithm for convex problems with
+  applications to imaging}.
+\newblock {\em Journal of Mathematical Imaging and Vision}, 40(1), 2010.
+
+\bibitem{Chen2010}
+Q.~Chen, P.~Montesinos, Q.~S. Sun, P.~A. Heng, and D.~S. Xia.
+\newblock {Adaptive total variation denoising based on difference curvature}.
+\newblock {\em Image and Vision Computing}, 28(3):298--306, Mar. 2010.
+
+\bibitem{diego66}
+S.~Diego.
+\newblock {Minimization of Functions Having Lipschitz Continous First Partial
+  Derivatives}.
+\newblock {\em Pacific Journal of Mathematics}, 16(1):2--5, 1966.
+
+\bibitem{proxalgs}
+N.~Parikh and S.~Boyd.
+\newblock {Proximal Algorithms}.
+\newblock 1(3):123--231, 2013.
+
+\end{thebibliography}

@@ -1,0 +1,92 @@
+\relax 
+\bibstyle{ieee}
+\citation{cattin13}
+\citation{cattin13}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\newlabel{eq:degradationModel}{{1}{1}}
+\newlabel{eq:denoisingModel}{{2}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Methods}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Total Variation}{2}}
+\newlabel{eq:TVnorm}{{3}{2}}
+\newlabel{eq:minEnergy}{{4}{2}}
+\newlabel{eq:Energy}{{5}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Discretization and Optimization}{2}}
+\citation{diego66}
+\newlabel{eq:tau}{{7}{3}}
+\newlabel{eq:delEnergy}{{8}{3}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Gradient descent optimization of $E(u)$\relax }}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Implementation}{4}}
+\newlabel{eq:differenceX}{{9}{4}}
+\newlabel{eq:Dfx}{{10}{4}}
+\newlabel{eq:differenceY}{{11}{4}}
+\newlabel{eq:Dfy}{{12}{4}}
+\newlabel{eq:backwardDifferences}{{13}{5}}
+\newlabel{eq:delEnergyMatrices}{{14}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Primal-Dual Formulation}{5}}
+\citation{proxalgs}
+\newlabel{eq:primalProblem}{{15}{6}}
+\newlabel{eq:primalDualProblem}{{16}{6}}
+\newlabel{eq:indicator}{{17}{6}}
+\newlabel{eq:primalDualProblemTV}{{18}{6}}
+\newlabel{eq:udpatestepDual}{{19}{6}}
+\newlabel{eq:udpatestepPrimal}{{20}{6}}
+\newlabel{eq:extrapolationStep}{{21}{6}}
+\citation{chambolle}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Primal-dual optimization of $E(u)$\relax }}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Algorithm 1 -- Gradient descent}{7}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:pre}{{1a}{8}}
+\newlabel{sub@fig:pre}{{(a)}{a}}
+\newlabel{fig:post}{{1b}{8}}
+\newlabel{sub@fig:post}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Left: Original gray-value image. Right: Image with added Gaussian noise $(\sigma =0.1)$.\relax }}{8}}
+\newlabel{fig:original}{{1}{8}}
+\newlabel{fig:pre}{{2a}{8}}
+\newlabel{sub@fig:pre}{{(a)}{a}}
+\newlabel{fig:post}{{2b}{8}}
+\newlabel{sub@fig:post}{{(b)}{b}}
+\newlabel{fig:ssdf}{{2c}{8}}
+\newlabel{sub@fig:ssdf}{{(c)}{c}}
+\newlabel{fig:ssdf}{{2d}{8}}
+\newlabel{sub@fig:ssdf}{{(d)}{d}}
+\newlabel{fig:gt}{{2e}{8}}
+\newlabel{sub@fig:gt}{{(e)}{e}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Estimated $\mathaccentV {tilde}07E{u}$ (gradient descent) for iterations $t=1$, $t=5$, $t=10$, $t=100$ and when convergence is achieved (from top left to bottom right image).\relax }}{8}}
+\newlabel{fig:progression}{{2}{8}}
+\newlabel{fig:pre}{{3a}{8}}
+\newlabel{sub@fig:pre}{{(a)}{a}}
+\newlabel{fig:post}{{3b}{8}}
+\newlabel{sub@fig:post}{{(b)}{b}}
+\newlabel{fig:post}{{3c}{8}}
+\newlabel{sub@fig:post}{{(c)}{c}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Left: $\lambda =0.1$. Middle: $\lambda =15$. Right: $\lambda =50$.\relax }}{8}}
+\newlabel{fig:values}{{3}{8}}
+\citation{Chen2010}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Plot of $SSD$ vs. $\lambda $. Minima of $SSD=111.33$ for $\lambda =15$.\relax }}{9}}
+\newlabel{fig:plot}{{4}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Algorithm 2 -- Primal-Dual method}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{10}}
+\newlabel{fig:pre}{{5a}{10}}
+\newlabel{sub@fig:pre}{{(a)}{a}}
+\newlabel{fig:post}{{5b}{10}}
+\newlabel{sub@fig:post}{{(b)}{b}}
+\newlabel{fig:ssdf}{{5c}{10}}
+\newlabel{sub@fig:ssdf}{{(c)}{c}}
+\newlabel{fig:ssdf}{{5d}{10}}
+\newlabel{sub@fig:ssdf}{{(d)}{d}}
+\newlabel{fig:gt}{{5e}{10}}
+\newlabel{sub@fig:gt}{{(e)}{e}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Estimated $\mathaccentV {tilde}07E{u}$ (primal-dual method) for iterations $t=1$, $t=5$, $t=10$, $t=50$ and when convergence is achieved (from top left to bottom right image).\relax }}{10}}
+\newlabel{fig:progressionDual}{{5}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Plot of $SSD$ vs. $\lambda $. Minima of $SSD=112.75$ for $\lambda =15$.\relax }}{10}}
+\newlabel{fig:plotDual}{{6}{10}}
+\citation{*}
+\bibdata{COProject}
+\bibcite{cattin13}{1}
+\bibcite{chambolle}{2}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Derivation of $\nabla _{u}E(u)$}{12}}
+\newlabel{appendixDer}{{A}{12}}
+\bibcite{Chen2010}{3}
+\bibcite{diego66}{4}
+\bibcite{proxalgs}{5}
